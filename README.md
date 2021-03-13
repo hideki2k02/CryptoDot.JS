@@ -34,7 +34,9 @@ The data input/output is in Node Content
 Nodes are just Fancy names. Thats all.
 
 **Node Name = File Name (Output will be a [SHA-256 hash](https://en.wikipedia.org/wiki/SHA-2))**
+
 **Node Key = Encryption Key (Will be converted to [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2))**
+
 **Node Content = Data Input/Output (depends on the operation; will create [AES data](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) if you are encrypting)**
 
 **Notes: Theoretically, not even the current [World's Strongest Computer](https://www.bbc.com/news/world-asia-53147684#:~:text=The%20newly%20crowned%20world's%20fastest,IBM%20machine%20in%20the%20US.) should be able to crack your Node any time soon (he's also busy fighting CoVid).**
