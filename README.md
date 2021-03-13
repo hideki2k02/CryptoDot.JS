@@ -15,8 +15,6 @@ The library i used to generate Public/Private Keys: [TweetNaCl.js](https://www.n
 
 The library used for Single-Page-App was written by 10c8
 
-The Encryption Methods i used are: [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (key varies), [SHA-256](https://en.wikipedia.org/wiki/SHA-2) and [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2)
-
 ## How does the program work?
 You can Encrypt any Data using a Node Name and a Node Key
 
