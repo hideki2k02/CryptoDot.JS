@@ -1,4 +1,5 @@
 # CryptoDot.JS
-Cryptography made simple and free!
+## Cryptography made simple and free! 
+## by japa4551
 
-testing
+this page is being build
