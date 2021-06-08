@@ -1,0 +1,7 @@
+This is the order that the data will appear if the file is read as HEX
+To make reading the file easier, on the end of every data there would be a .
+
+File Format: Program name (Cryptodot) (9 bytes)
+Version: 1 byte (255 possibilities)
+Encrypted File Size: 6 bytes (over a billion possibilities)
+Encrypted Text Data (Rest of file)

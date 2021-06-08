@@ -1,0 +1,15 @@
+{
+  "name": "cryptodot",
+  "version": "1.0.0",
+  "description": "Cryptography for dummies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "japa4551",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "electron-packager": "^15.2.0"
+  }
+}

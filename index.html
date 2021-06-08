@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>CryptoDot.JS - Home</title>
+
+        <link rel="stylesheet" type="text/css" href="resources/cryptodot.css">
+        
+        <script src="resources/javascript/coast.min-1.1.js"></script>
+    </header>
+
+    <body>
+        <h1 id="page-title">CryptoDot.JS</h1>
+
+        <ul id="navbar">
+            <li><a href="#main-page">Home</a></li>
+            <li><a href="#cryptography-page">Encrypt & Decrypt</a></li>
+            <li><a href="#info-page">Info</a></li>
+            <li><a href="#settings-page">Settings</a></li>
+            <li><a href="#index">Logout</a></li>
+        </ul>
+
+        <h1 id="copyright-text">Copyright &copy 2021 japa4551</h1>
+
+        <div class="coast-view user-input" data-route="index">
+            <label>Username</label><br>
+            <input id="username-input" type="text"><br>
+
+            <label>Password</label> <br>
+            <input id="password-input" type="password"><br>
+
+            <button id="login-button">Login</button>
+            <button id="register-button">Register</button>
+        </div>
+
+        <div class="coast-view" id="text-section" data-route="main-page">
+            <h1>Welcome, <span id="main-page-username"></span></h1>
+        </div>
+
+        <div class="coast-view user-input" data-route="cryptography-page">
+            <label>Bin Name</label>
+            <input id="bin-name" type="text">
+            <br>
+            <label>Bin Key</label>
+            <input id="bin-key" type="password">
+            <br>
+            <label>Bin Signature</label>
+            <input id="bin-signature" type="text" readonly>
+            <br>
+            <label>Signature's UUID</label>
+            <input id="bin-signature-uuid" type="text" readonly>
+            <br>
+
+            <label>Bin Content</label><br>
+            <textarea id="bin-content"></textarea>
+
+            <button class="bin-buttons" id="encrypt-bin-button">Encrypt Bin</button>
+            <button class="bin-buttons" id="decrypt-bin-button">Decrypt Bin</button>
+        </div>
+
+        <div class="coast-view" id="text-section" data-route="info-page">
+            <h1>What is CryptoDot and how was it made?</h1>
+            <h4>CryptoDot was made to simplify your Encryption needs.</h1>
+            <h4>CryptoDot was made with HTML, CSS and Node.js with the help of Electron.</h2>
+            <h4>The Library i use for Encryption and Decryption is Crypto.JS</h4>
+            <h4>The Encryption Methods i use are: AES, SHA-256 and SHA-512</h4>
+    
+            <h1>How does the program work?</h1>
+            <h4>If you are on Encryption Mode it will try to Encrypt a Node with "Node Name" using the "Node Key".</h4>
+            <h4>If you are on Decryption Mode it will do the opposite.</h4>
+            <h4>Note for Encryption: If a Node already exists with that name, it will overwrite it!</h4>
+
+            <h1>What the hell are these?!</h1>
+            <h4>I just got bored lol</h4>
+            <h4>Node Name = File Name</h4>
+            <h4>Node Key = File Password</h4>
+
+            <h1>Do you accept Donations?</h1>
+            <h4>Of course i do! Check the <a href="#donate-page">Donation Page</a>
+        </div>
+
+        <div class="coast-view" id="text-section" data-route="settings-page">
+            <h1>This page is currently WIP.</h1>
+            <h4>This project has been delayed for over a month now</h4> 
+            <h4>Either because i was not able to keep up with coding the Interface while coding the actual Functions</h4>
+            <h4>Or either because im a lazy bastard.</h4>
+            <br>
+            <h4>That means that i had to rush things a bit, so interface bugs are common and i am aware of a few.</h4>
+        </div>
+
+        <div class="coast-view" id="text-section" data-route="donate-page">
+            <h1>If you like this program, please Donate to support me</h1>
+            <br>
+            <h4><span class="selectable-text" style="color:gold">Bitcoin (Native SegWit bech32): bc1qntw8aulfe2e42xgd0sl9pam5krcz62uke3xewy</span></h4>
+            <h4><span class="selectable-text" style="color:gold">Bitcoin (Nested SegWit P2SH): 3QZbZQxohMegKrs8QWyBcVbH3SnTJydpA3</span></h4>
+            <h4><span class="selectable-text" style="color:gold">Bitcoin (Legacy): 1GQotnKUEhYDftGK7ShGCSHU7so8ABWcv9</span></h4>
+            <br>
+            <h4><span class="selectable-text" style="color:lightgray">Litecoin (Native SegWit bech32): ltc1qunszasyq4zfceklue047a09yucr65mc5cyetmw</span></h4>
+            <h4><span class="selectable-text" style="color:lightgray">Litecoin (Nested SegWit P2SH): MJVrTpEh9okVjwX5kL6AaVNZhUW96FgAk4</span></h4>
+            <h4><span class="selectable-text" style="color:lightgray">Litecoin (Legacy): LXv4z5AfDQ2LCKtPzJhZjdMB5tk8Ngjc3n</span></h4>
+            <br>
+            <h4><span class="selectable-text" style="color:orange">DogeCoin: DMX4JeVQubchHuv22ykEn57k2xVqJcLkCP</span></h4>
+            <br>
+            <h4><span class="selectable-text" style="color:rgb(121, 134, 203)">Etherum (ETH): 0x15c9A138914c82676f163bE2C41691e0d2d4Ca3a</span></h4>
+            <br>
+            <h2>Feel free to ask me for more CryptoCurrency Options.</h1>
+        </div>
+
+        <div class="coast-view" id="text-section" data-route="gatekeeper">
+            <h1>STOP!</h1>
+            <h2>You should not be here.</h4>
+            <h4>If you are here it means you either found a bug or you are trying to exploit my code</h4>
+            <h4>I would not mind to make this program Open-Source, however i would like to keep credits</h4>
+            <h4>Also by keeping the program Closed-Source i help prevent people from trying to backdoor my program</h4>
+            <br>
+            <h4>Anyway, if you really are interested in knowing how my program works, check the Info page.</h4>
+            <br>
+            <a href="#index">Back to the Login Screen</a>
+        </div>
+
+        <script src="resources/javascript/cryptodot_methods.js"></script>
+        <script src="resources/javascript/cryptodot_login.js"></script>
+    </body>
+</html>

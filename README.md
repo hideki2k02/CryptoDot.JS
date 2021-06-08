@@ -1,4 +1,19 @@
+# THIS PROJECT IS ABANDONED
+**Why did i abandon the project?**
+
+At the time i had several health issues, mental ones included unfortunately
+Some of the problems like a infection i had (?) were solved, others remain
+I might be feeling/getting better but i dont want to continue this project anymore, in fact sometimes i dont even feel like coding.
+
+**What about the source code?**
+
+Feel free to use the code as you like, fork it, whatever, just credit me if i inspire you to do anything
+Its hard to give up on something i spent 3 months making pretty much alone just to give up at the last step... 
+But its better to release the code than to let it rot in a Hard Drive.
+Not sure if the program will work, but you will have to install Electron manually on the project's folder
+
 # CryptoDot.JS
+
 Cryptography made simple, open-source, and free!
 
 ## What is CryptoDot and how was it made?
@@ -11,18 +26,16 @@ Previously it was made with [GODOT Engine](https://godotengine.org/) but it was 
 ## Libaries used
 The Library i used for Encryption and Decryption is [Crypto.JS](https://cryptojs.gitbook.io/docs/)
 
-The library i used to generate Public/Private Keys: [TweetNaCl.js](https://www.npmjs.com/package/tweetnacl)
-
 The library used for Single-Page-App was written by 10c8
 
 ## How does the program work?
-You can Encrypt any Data using a Node Name and a Node Key
+You can Encrypt any Text Data using a Node Name and a Node Key
 
 The same goes for Decryption, but to Decrypt you only need the Node Name and the Node Key
 
 The data input/output is in Node Content
 
-**Notes for Encryption: If a Node already exists with that name, it will OVERWRITE it! so be careful (and i don't intend to change this for now)**
+**Notes for Encryption: If a Node already exists with that name, it will OVERWRITE it! so be careful (and i don't intend to change this)**
 
 **Note 2: If you are afraid to acidentally overwrite a Node, you can always save the Node Name somewhere safe, as even if they have the name, they won't know whats inside without the password ;)**
 
@@ -50,7 +63,5 @@ Check [this page](https://www.notion.so/Buy-me-a-Coffe-623096e67a074056be6bf11e3
 **Jeff Mott (Crypto.JS)**
 
 **Evan Vosberg (Crypto.JS)**
-
+    
 **10c8 (Coast.JS)**
-
-**dchest (TweetNaCl.js)**
