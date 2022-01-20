@@ -1,4 +1,4 @@
-# THIS PROJECT IS ABANDONED
+# THIS PROJECT IS ABANDONED (This page is also outdated, its just here as an "Archive")
 **Why did i abandon the project?**
 
 At the time i had several health issues, mental ones included unfortunately
@@ -53,9 +53,6 @@ Nodes are just Fancy names. Thats all.
 **Notes: Theoretically, not even the current [World's Strongest Computer](https://www.bbc.com/news/world-asia-53147684#:~:text=The%20newly%20crowned%20world's%20fastest,IBM%20machine%20in%20the%20US.) should be able to crack your Node any time soon (he's also busy fighting CoVid).**
 
 Just don't use something simple as your Birthday as your Friends may guess it.
-
-## Donations?
-Check [this page](https://www.notion.so/Buy-me-a-Coffe-623096e67a074056be6bf11e33ea4bb8) to Donate me some Crypto!
 
 ## Credits
 **GitHub Inc. (Electron.JS)**
